@@ -14,4 +14,4 @@ firebase projects:list
 firebase use --add
 rodri-calc-app-24
 firebase deploy
-https://rodri-calc-app-24.web.app/
+https://rodri-calc-app-24.web.app
