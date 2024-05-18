@@ -28,7 +28,7 @@ const App = () => {
         />
         <MathOperations 
             onClickOperation={operation => { setStack(`${stack}${operation}`) }}
-            onClickEqual={equal => { setStack(eval(stack)) }}
+            onClickEqual={() => { setStack(eval(stack)) }}
         />
     </main>);
 }
